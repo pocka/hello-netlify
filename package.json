@@ -1,0 +1,19 @@
+{
+  "name": "hello-netlify",
+  "version": "1.0.0",
+  "description": "Example repository for deploying to Netlify",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pocka/hello-netlify.git"
+  },
+  "author": "pocka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pocka/hello-netlify/issues"
+  },
+  "homepage": "https://github.com/pocka/hello-netlify#readme"
+}
