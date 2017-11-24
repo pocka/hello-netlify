@@ -4,7 +4,11 @@
   "description": "Example repository for deploying to Netlify",
   "main": "none",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:scss": "node-sass --include-path src/scss src/scss/index.scss public/style.css",
+    "build": "npm run build:scss",
+    "watch:scss": "node-sass --watch --include-path src/scss src/scss/index.scss public/style.css",
+    "server": "http-server",
+    "dev": "npm run build && npm run watch:scss & http-server"
   },
   "repository": {
     "type": "git",
