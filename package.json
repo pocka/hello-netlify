@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/pocka/hello-netlify/issues"
   },
-  "homepage": "https://github.com/pocka/hello-netlify#readme"
+  "homepage": "https://github.com/pocka/hello-netlify#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "node-sass": "^4.7.2"
+  }
 }
