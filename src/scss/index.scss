@@ -1,0 +1,36 @@
+@import "./vars";
+
+@mixin centering() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+
+  background-color: $color-netlify-dark;
+}
+
+.title {
+  @include centering();
+
+  overflow: hidden;
+
+  color: mix(#fff, $color-netlify-light, 90);
+}
+
+.description {
+  @include centering();
+
+  transform: translate(-50%, -50%) rotate(20deg);
+
+  color: $color-netlify-light;
+  mix-blend-mode: screen;
+}
